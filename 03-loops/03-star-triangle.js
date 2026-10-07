@@ -16,5 +16,5 @@
 const rows =5;
 let line="";
 for (let i = 1; i<=rows; i++){
-    console.log(line = line + "*")
+    console.log(line = line + "*");
 }
