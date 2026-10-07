@@ -12,3 +12,13 @@
 //   Total: 1650 baisa = 1.65 OMR
 
 // your code here
+
+const Shawarma = 600;
+const karak = 150;
+let countShawarma = 2 * Shawarma;
+let countkarak= 3 * karak;
+let total = countShawarma + countkarak;
+
+console.log(`Shawarma: 2 x 600 = `, countShawarma, `baisa`)
+console.log(`Karak: 3 x 150 =`, countkarak, `baisa`)
+console.log(`Total: ${total} baisa`, total/1000)
