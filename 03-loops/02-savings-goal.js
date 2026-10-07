@@ -16,3 +16,14 @@
 //   Goal reached in 7 months!
 
 // your code here
+const cont = 100;
+let money = 0;
+let ContMonth = 0;
+
+while (money < cont){
+      ContMonth++;
+      money = money + 15;
+    console.log(`Month ${ContMonth}: ${money} OMR` );
+
+}
+console.log(`Goal reached in ${ContMonth} months!`);
